@@ -10,7 +10,7 @@ PUBLIC
 ${PNC_Map_Dir}
 )
 
-target_link_directories(${PROJECT_NAME}
+target_link_libraries(${PROJECT_NAME}
 PUBLIC
 pnc_map
 ) 
